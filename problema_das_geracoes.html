@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha() {
+
+    document.write("<br><br>")
+
+}
+
+function mostra(texto) {
+
+    document.write(texto)
+    pulaLinha()
+
+}
+
+let descobertaBrasil = 1500
+let anoAtual = 2022
+let idadeMediaParaFilhos = 28
+let geracoes = Math.round((anoAtual - descobertaBrasil)/idadeMediaParaFilhos);
+
+mostra("Se passaram: " + geracoes + " gerações")
+
+</script>

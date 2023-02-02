@@ -1,0 +1,17 @@
+<meta charset="UTF-8">
+<script>
+
+function pulaLinha() {
+
+    document.write("<br><br>")
+
+}
+
+function mostra(texto) {
+
+    document.write(texto)
+    pulaLinha()
+
+}
+
+</script>
